@@ -1,0 +1,43 @@
+.singu-page{
+    /* margin-top: 2rem; */
+    padding: 2.2rem 0 2.2rem 0;
+    background-color: rgb(245, 247, 248);
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.form-group{
+    display: flex;
+    align-content: center;
+}
+
+.form-group .icon{
+    margin: 1rem 0.9rem auto 0;
+}
+
+.form-group .user-details{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group .user-details label{
+    font-size: 14px;
+    color: #aeaeae;
+    font-family: 'TradeGothic LT';
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.user-details input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(250, 210, 10);
+    background: transparent;
+}
+
+.singup-box{
+    margin-top: 2rem;
+}
+
+.user-details .input-line{
+    width: 170%;
+}
