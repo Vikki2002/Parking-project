@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+/* body{
+    background: url('../pexels-marcantoine-2457183.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+} */
+input{
+    /* color: white; */
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+a{
+    text-decoration: none;
+    color: #5a5a5a;
+}
+
+img{
+    cursor: pointer;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    height: 100px;
+    padding: 10px 2%;
+    justify-content: space-between;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.nav-right .user-icon{
+    width: 50px;
+    margin-right: 25px;
+    border-radius: 50%;
+}
+
+.nav-left .web-logo{
+    width: 3rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.nav-left span{
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: rgb(0, 169, 255);
+}
+
+.nav-middle{
+    margin-left: 11rem;
+}
+
+.nav-middle a{
+    margin-left: 30px;
+    color: black;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 1.3rem;
+}
+
+.nav-middle a:hover{
+    background-color: #5272F2;
+    color: white;
+    font-weight: 600; 
+}
