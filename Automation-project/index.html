@@ -29,14 +29,34 @@
           <span>Secure Port</span>
         </div>
         <div class="nav-middle nav-bar">
-          <a href="#">Login</a>
-          <a href="#">Contact Us</a>
+          <a href="#" id="login-btn">Login</a>
+          <a href="-blank" target="_blank" id="singUp_Button">Sing Up</a>
           <a href="#">Abot us</a>
           <a href="#">Service</a>
         </div>
       </nav>
 
-      <div class="slide-login"></div>
+      <div class="login-page" style="display: none;">
+        <div class="col-md-6 singup-box">
+          <div class="form-group">
+            <div class="icon">
+              <i class="bx bx-user" style="font-size: 2rem"></i>
+            </div>
+            <div class="user-details">
+              <label for="f-Name">First Name*</label>
+              <input
+                class="input-line"
+                id="f-Name"
+                type="text"
+                value=""
+                min="0"
+                max="100"
+              />
+            </div>
+            <div class="requried"></div>
+          </div>
+        </div>
+      </div>
 
     <div class="container-fluid carousel-info">
       <div id="carouselExampleCaptions" class="carousel slide">
@@ -190,6 +210,8 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+
+    <script src="./script/script.js"></script>
   </body>
 </html>
 
