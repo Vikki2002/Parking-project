@@ -1,16 +1,15 @@
 const singup_Button = document.getElementById("singUp_Button");
-const login_btn = document.getElementById("login-btn")
-
+const login_btn = document.getElementById("login-btn");
+const loginPage = document.querySelector(".side-login-page");
 
 
  const submitForm = (event)=>{
     const link = document.getElementById("singUp_Button");
     link.href = "sing_Up_page.html"
-    // event.preventDefault();
 }
 
 const login = () => {
-    
+    loginPage.classList.toggle("side-login-page-block")
 }
 
 
